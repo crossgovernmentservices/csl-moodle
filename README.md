@@ -15,7 +15,7 @@ docker-compose up -d
 Alternatively you could run this container the old fashion way:
 
 ```
-docker run -d -p 80:80 moodlecsl /usr/sbin/apachectl -D FOREGROUND
+docker run -d -p 80:80 djsd123/moodlecsl /usr/sbin/apachectl -D FOREGROUND
 ```
 
 Now use your browser or commandline to hit the endpoint
